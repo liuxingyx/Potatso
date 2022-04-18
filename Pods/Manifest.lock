@@ -1,0 +1,150 @@
+PODS:
+  - Alamofire (4.2.0)
+  - Appirater (2.0.5)
+  - Aspects (0.0.1)
+  - AsyncSwift (2.0.4)
+  - CallbackURLKit (1.0.0):
+    - CallbackURLKit/Core (= 1.0.0)
+  - CallbackURLKit/Core (1.0.0)
+  - Cartography (3.0.4)
+  - CocoaAsyncSocket (7.4.3):
+    - CocoaAsyncSocket/All (= 7.4.3)
+  - CocoaAsyncSocket/All (7.4.3):
+    - CocoaAsyncSocket/GCD
+    - CocoaAsyncSocket/RunLoop
+  - CocoaAsyncSocket/GCD (7.4.3)
+  - CocoaAsyncSocket/RunLoop (7.4.3)
+  - CocoaLumberjack/Core (3.0.0)
+  - CocoaLumberjack/Default (3.0.0):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (3.0.0):
+    - CocoaLumberjack/Default
+  - CocoaLumberjack/Swift (3.0.0):
+    - CocoaLumberjack/Extensions
+  - Eureka (4.1.1)
+  - ICDMaterialActivityIndicatorView (0.1.2)
+  - ICSMainFramework (0.0.1)
+  - ICSPullToRefresh (0.6)
+  - ISO8601DateFormatter (0.8)
+  - KeychainAccess (3.1.1)
+  - KissXML (5.2.2)
+  - LibYAML (0.1.4)
+  - MBProgressHUD (1.0.0)
+  - MMWormhole (2.0.0):
+    - MMWormhole/Core (= 2.0.0)
+  - MMWormhole/Core (2.0.0)
+  - ObjectMapper (4.2.0)
+  - PSOperations (4.0.2):
+    - PSOperations/Calendar (= 4.0.2)
+    - PSOperations/Core (= 4.0.2)
+    - PSOperations/Health (= 4.0.2)
+    - PSOperations/Location (= 4.0.2)
+    - PSOperations/Passbook (= 4.0.2)
+  - PSOperations/Calendar (4.0.2):
+    - PSOperations/Core
+  - PSOperations/Core (4.0.2)
+  - PSOperations/Health (4.0.2):
+    - PSOperations/Core
+  - PSOperations/Location (4.0.2):
+    - PSOperations/Core
+  - PSOperations/Passbook (4.0.2):
+    - PSOperations/Core
+  - Realm (2.10.2):
+    - Realm/Headers (= 2.10.2)
+  - Realm/Headers (2.10.2)
+  - RealmSwift (2.10.2):
+    - Realm (= 2.10.2)
+  - Reveal-iOS-SDK (1.6.2)
+  - SwiftColor (0.4.0)
+  - YAML-Framework (0.0.3):
+    - LibYAML (~> 0.1.4)
+
+DEPENDENCIES:
+  - Alamofire
+  - Appirater
+  - Aspects (from `./Library/Aspects/`)
+  - AsyncSwift
+  - CallbackURLKit (from `./Library/CallbackURLKit`)
+  - Cartography (~> 3.0.4)
+  - CocoaAsyncSocket (~> 7.4.3)
+  - CocoaLumberjack/Swift (~> 3.0.0)
+  - Eureka
+  - ICDMaterialActivityIndicatorView (~> 0.1.0)
+  - ICSMainFramework (from `./Library/ICSMainFramework/`)
+  - ICSPullToRefresh (~> 0.6)
+  - ISO8601DateFormatter (~> 0.8)
+  - KeychainAccess (~> 3.1.1)
+  - KissXML (~> 5.2.2)
+  - MBProgressHUD
+  - MMWormhole (~> 2.0.0)
+  - ObjectMapper (~> 4.2.0)
+  - PSOperations (~> 4.0.2)
+  - RealmSwift (~> 2.10.2)
+  - Reveal-iOS-SDK (~> 1.6.2)
+  - SwiftColor
+  - YAML-Framework (from `./Library/YAML-Framework`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Appirater
+    - AsyncSwift
+    - Cartography
+    - CocoaAsyncSocket
+    - CocoaLumberjack
+    - Eureka
+    - ICDMaterialActivityIndicatorView
+    - ICSPullToRefresh
+    - ISO8601DateFormatter
+    - KeychainAccess
+    - KissXML
+    - LibYAML
+    - MBProgressHUD
+    - MMWormhole
+    - ObjectMapper
+    - PSOperations
+    - Realm
+    - RealmSwift
+    - Reveal-iOS-SDK
+    - SwiftColor
+
+EXTERNAL SOURCES:
+  Aspects:
+    :path: "./Library/Aspects/"
+  CallbackURLKit:
+    :path: "./Library/CallbackURLKit"
+  ICSMainFramework:
+    :path: "./Library/ICSMainFramework/"
+  YAML-Framework:
+    :path: "./Library/YAML-Framework"
+
+SPEC CHECKSUMS:
+  Alamofire: aa2e09d871c9160ac53c90e83c68064a94e3dfbe
+  Appirater: e7c0a47fb67ee5041ce8479e6ba960927fb40264
+  Aspects: 35254a4a73948e7bc1118ce0554674f77467a80b
+  AsyncSwift: 65775a7b32e740609b24969ece3de58723b9dc3e
+  CallbackURLKit: 1a56181ef8d6a1491865041b2192dd8c9a364669
+  Cartography: 95171f461b42d5c62066212941421b21dfa0240f
+  CocoaAsyncSocket: a18c75dca4b08723628a0bacca6e94803d90be91
+  CocoaLumberjack: c823149bccc5519a9447aeb433be7b1212a7d6a5
+  Eureka: b88fb930e42c79f8c03c373d0fcdc28c1d6c50ed
+  ICDMaterialActivityIndicatorView: 3f02a9dc9e52417023a98385d631c93d3f95c465
+  ICSMainFramework: 56240e9556d3b0755fc9c934a91ee8ebd09cb753
+  ICSPullToRefresh: a64f102c6558cc34270ea60e99df7c91d1f3d2c0
+  ISO8601DateFormatter: 4551b6ce4f83185425f583b0b3feb3c7b59b942c
+  KeychainAccess: 7bd430028059754a3debab3cfc0bd1fc7fb85df3
+  KissXML: 4418f32138aec43797891845d682b00fc8cd4677
+  LibYAML: 3af2c5adf3a40dff936d087aa6a77edc10036bc5
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  MMWormhole: 0cd3fd35a9118b2e2d762b499f54eeaace0be791
+  ObjectMapper: 1eb41f610210777375fa806bf161dc39fb832b81
+  PSOperations: b84c5714fba6dafefc0c414060d9581e2cc2ebfa
+  Realm: 0ef72b837fb67e9f4b098bac771ddd72c7fdbb69
+  RealmSwift: 07a9ae0505091eda6b2ee7c190c3786d6e90a7b0
+  Reveal-iOS-SDK: e2250b3c155bcfac53ae223ddc1f76d08f206c33
+  SwiftColor: c240d8cb2e1a29d731ae8deca8739eac6b9c56bd
+  YAML-Framework: 4143807db7155936f3b00facd6e5c22bd338cd50
+
+PODFILE CHECKSUM: b794538ebfd061ee88679208c148074982ee085d
+
+COCOAPODS: 1.11.3
