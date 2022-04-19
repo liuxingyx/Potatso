@@ -12,6 +12,7 @@ import CloudKit
 public enum ProxyType: String {
     case Shadowsocks = "SS"
     case ShadowsocksR = "SSR"
+    case Subscribe = "subscribe"
     case Https = "HTTPS"
     case Socks5 = "SOCKS5"
     case None = "NONE"
@@ -27,6 +28,9 @@ extension ProxyType: CustomStringConvertible {
         return self == .Shadowsocks || self == .ShadowsocksR
     }
     
+    public var isSubscribe: Bool {
+        return self == .Subscribe
+    }
 }
 
 public enum ProxyError: Error {
